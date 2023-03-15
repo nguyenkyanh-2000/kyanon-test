@@ -1,0 +1,30 @@
+.updateForm {
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 700px;
+  border-radius: 25px;
+  padding: 50px 50px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+}
+
+.title {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500px;
+  align-self: flex-start;
+}
+
+.signInRow {
+  display: flex;
+  width: inherit;
+  justify-content: flex-end;
+  gap: 25px;
+  align-items: center;
+}
